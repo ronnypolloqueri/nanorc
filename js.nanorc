@@ -1,0 +1,7 @@
+syntax "jsfiles" "\.js$"
+color green "//.*$" start="\/\*" end="\*\/"
+color cyan "'(\\.|[^'])*'"
+color brightcyan ""(\\.|[^\"])*""
+color brightgreen "\<(true)\>"
+color brightred "\<(false)\>" "http\:\/\/.*$"
+color brightmagenta "[0-9](\\.|([^\"])*)"
